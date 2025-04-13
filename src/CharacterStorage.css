@@ -1,0 +1,165 @@
+/* Character Storage Styles */
+.character-storage {
+    background-color: #f5f0e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.character-storage h2 {
+    color: #7b2d26;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #d4a97e;
+    padding-bottom: 10px;
+}
+
+.character-storage h3 {
+    color: #7b2d26;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #d4a97e;
+    padding-bottom: 5px;
+}
+
+.save-character-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4a97e;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f7e8;
+}
+
+.save-character-btn {
+    background-color: #2a623d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    height: 40px;
+    align-self: flex-end;
+    margin-top: 22px;
+}
+
+.save-character-btn:hover {
+    background-color: #347a4d;
+    transform: translateY(-2px);
+}
+
+.no-character-message,
+.no-characters-message {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #777;
+    font-style: italic;
+}
+
+.saved-characters-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.character-card {
+    background-color: #f9f7e8;
+    border: 1px solid #d4a97e;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.character-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-color: #7b2d26;
+}
+
+.character-info {
+    flex: 1;
+}
+
+.character-name {
+    color: #7b2d26;
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.character-details {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.character-race-class {
+    font-weight: bold;
+}
+
+.character-saved-date {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.character-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.delete-character-btn {
+    background-color: #7b2d26;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.delete-character-btn:hover {
+    background-color: #923730;
+}
